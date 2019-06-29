@@ -1,0 +1,5 @@
+Django==2.2.1
+uWSGI==2.0.15
+django-redis==4.9.0
+
+
