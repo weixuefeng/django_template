@@ -75,4 +75,4 @@ MEDIA_URL = 'http://localhost:8000/filestorage/'
 MEDIA_ROOT = './'
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 STATIC_URL = 'http://localhost:8000/static/'
-STATIC_ROOT = 'static'
+STATIC_ROOT = "static"

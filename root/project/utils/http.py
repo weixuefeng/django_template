@@ -9,10 +9,10 @@ except ImportError:
     from django.utils.functional import wraps  # Python 2.3, 2.4 fallback.
 
 from django.http import HttpResponse
-import dapp_django.utils.coder as coder
+import utils as coder
 import json as simplejson
 from django.conf import settings
-from dapp_django.config import codes
+from config import codes
 
 
 class JsonResponse(HttpResponse):
